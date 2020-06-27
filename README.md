@@ -5,10 +5,12 @@ python3.6.8 + django3 详见 deploy/requirements.txt
 
 ## 启动命令
 src目录下，sh run.sh
+该文件目前适配于api3服务器的/home/yangjun/code/puppet_backend启用的服务, 其他部署稍稍改动run.sh即可，很简单
 
 ## 配置项
 
 * src/puppet_backend/settings.py
+该文件又修改的话，请重启服务, sh run.sh 即可
 
 ```
 ** 获取好友列表和群列表的时间间隔，单位秒
