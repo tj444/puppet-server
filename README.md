@@ -51,9 +51,8 @@ src/crontab/tasks
 ```
 
 ## 相关文档
-https://docs.qq.com/doc/DSE1EWUhUZUhUa1pF
-
-https://docs.qq.com/doc/DR2JFb3JxVHlNcGlu
+1. https://docs.qq.com/doc/DSE1EWUhUZUhUa1pF
+2. https://docs.qq.com/doc/DR2JFb3JxVHlNcGlu
 
 ## log
 log在src/log下，可以在src/puppet_backend/settings.py文中中配置路径
