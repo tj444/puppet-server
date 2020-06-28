@@ -279,7 +279,7 @@ class JobResultHandler():
         group_wxids = set()
         for group in groups:
             member_count = group.get('field_memberCount')
-            if member_count < 5:
+            if member_count < 20:
                 continue
             group_wxid = group.get('field_chatroomname')
             if group_wxid:
